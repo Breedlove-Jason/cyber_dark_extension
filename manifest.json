@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "CyberDark",
+  "version": "1.0",
+  "description": "Cyberpunk-inspired customizable dark mode for the web.",
+  "permissions": ["storage", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/lightbulb-slash-sm.svg",
+      "32": "icons/lightbulb-slash-sm.svg",
+      "48": "icons/lightbulb-slash-lg.svg",
+      "128": "icons/lightbulb-slash-lg.svg"
+    }
+  },
+  "icons": {
+    "16": "icons/lightbulb-slash-sm.svg",
+    "32": "icons/lightbulb-slash-sm.svg",
+    "48": "icons/lightbulb-slash-lg.svg",
+    "128": "icons/lightbulb-slash-lg.svg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-<!doctype html>
+<!--<!doctype html>-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,19 @@
   </head>
   <body>
     <h1>CyberDark</h1>
-    <label for="themeSelector">
-        <select id="themeSelector">
+    <div class="form-group">
+      <label for="themeSelector">Select Theme:</label>
+      <select id="themeSelector">
         <option value="cyberpunk">Cyberpunk</option>
+        <option value="darkNeon">Dark Neon</option>
+        <!-- Add more theme options here -->
       </select>
-    </label>
-    <button id="applyBtn">Apply Theme</button>
-    <button id="resetBtn">Reset</button>
+    </div>
+    <div class="buttons">
+      <button id="applyBtn">Apply Theme</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div id="status" aria-live="polite"></div>
     <script src="popup.js"></script>
   </body>
 </html>

@@ -1,30 +1,25 @@
-chrome.runtime.onMessage.addListener((request) => {
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    console.log("[CyberDark] message received:", request);
+
     if (request.action === "apply-theme") {
         fetch(chrome.runtime.getURL(`themes/${request.theme}.json`))
             .then(res => res.json())
-            .then(theme => applyTheme(theme));
-    } else if (request.action === "reset-theme") {
+            .then(theme => {
+                applyTheme(theme);
+                sendResponse({ status: "success" });
+            })
+            .catch(err => {
+                console.error("Theme load error:", err);
+                sendResponse({ status: "error" });
+            });
+
+        // ⚠️ Keep the port open for async response
+        return true;
+    }
+
+    if (request.action === "reset-theme") {
         removeTheme();
+        sendResponse({ status: "reset" });
+        return false;
     }
 });
-
-function applyTheme(theme) {
-    const style = document.createElement("style");
-    style.id = "cyberdark-style";
-    style.innerText = `
-    html, body {
-      background-color: ${theme.background} !important;
-      color: ${theme.text} !important;
-    }
-    a {
-      color: ${theme.link} !important;
-    }
-  `;
-    removeTheme();
-    document.head.appendChild(style);
-}
-
-function removeTheme() {
-    const existing = document.getElementById("cyberdark-style");
-    if (existing) existing.remove();
-}

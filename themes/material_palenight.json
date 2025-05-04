@@ -1,0 +1,11 @@
+{
+  "name": "Material Palenight",
+  "variables": {
+    "background": "#292d3e",
+    "foreground": "#a6accd",
+    "link": "#82aaff",
+    "visited-link": "#c792ea",
+    "hover-link": "#f78c6c",
+    "border": "#676e95"
+  }
+}

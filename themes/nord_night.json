@@ -1,0 +1,11 @@
+{
+  "name": "Nord Night",
+  "variables": {
+    "background": "#2e3440",
+    "foreground": "#d8dee9",
+    "link": "#88c0d0",
+    "visited-link": "#81a1c1",
+    "hover-link": "#8fbcbb",
+    "border": "#4c566a"
+  }
+}

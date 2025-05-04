@@ -1,5 +1,11 @@
 {
-  "background": "#0f0f0f",
-  "text": "#f21bce",
-  "link": "#0cf2db"
+  "name": "Cyberpunk",
+  "variables": {
+    "background": "#0d0f13",
+    "foreground": "#e0e0e0",
+    "link": "#ff005f",
+    "visited-link": "#ff55a3",
+    "hover-link": "#00ff9f",
+    "border": "#1f1f2e"
+  }
 }

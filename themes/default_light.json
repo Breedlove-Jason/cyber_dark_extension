@@ -1,0 +1,9 @@
+{
+  "name": "Default Light",
+  "variables": {
+    "background": "#ffffff",
+    "foreground": "#000000",
+    "link": "#1a0dab",
+    "border": "#cccccc"
+  }
+}

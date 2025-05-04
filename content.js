@@ -1,25 +1,28 @@
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("[CyberDark] message received:", request);
+// content.js
+// Applies theme CSS variables to page
+(async function() {
+    const themeName = await new Promise(resolve => {
+        chrome.runtime.sendMessage({ type: 'GET_CURRENT_THEME' }, resolve);
+    });
 
-    if (request.action === "apply-theme") {
-        fetch(chrome.runtime.getURL(`themes/${request.theme}.json`))
-            .then(res => res.json())
-            .then(theme => {
-                applyTheme(theme);
-                sendResponse({ status: "success" });
-            })
-            .catch(err => {
-                console.error("Theme load error:", err);
-                sendResponse({ status: "error" });
+    // Load theme definition
+    const themes = await importThemes();
+    const theme = themes[themeName] || themes['default'];
+
+    applyTheme(theme);
+
+    function applyTheme(theme) {
+        const root = document.documentElement;
+        Object.entries(theme.variables).forEach(([key, value]) => {
+            root.style.setProperty(`--${key}`, value);
+        });
+    }
+
+    function importThemes() {
+        return new Promise(resolve => {
+            chrome.storage.local.get(['themes'], data => {
+                resolve(data.themes || {});
             });
-
-        // ⚠️ Keep the port open for async response
-        return true;
+        });
     }
-
-    if (request.action === "reset-theme") {
-        removeTheme();
-        sendResponse({ status: "reset" });
-        return false;
-    }
-});
+})();

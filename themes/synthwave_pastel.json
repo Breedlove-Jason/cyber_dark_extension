@@ -1,0 +1,11 @@
+{
+  "name": "Synthwave Pastel",
+  "variables": {
+    "background": "#1e1e2e",
+    "foreground": "#e0def4",
+    "link": "#89b4fa",
+    "visited-link": "#fab387",
+    "hover-link": "#f5c2e7",
+    "border": "#44475a"
+  }
+}

@@ -1,24 +1,22 @@
-function sendMessageToTab(message) {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-        if (!tabs.length) return;
-
-        chrome.tabs.sendMessage(tabs[0].id, message, (response) => {
-            if (chrome.runtime.lastError) {
-                console.error("Message failed:", chrome.runtime.lastError.message);
-                document.getElementById("status").textContent = "❌ Failed to apply theme.";
-            } else {
-                console.log("[CyberDark] Response from content script:", response);
-                document.getElementById("status").textContent = "✅ Theme applied!";
-            }
-        });
+// popup.js
+// Manages UI for selecting and creating themes
+document.addEventListener('DOMContentLoaded', async () => {
+    const select = document.getElementById('theme-select');
+    const { themes, currentTheme } = await chrome.storage.local.get(['themes', 'currentTheme']);
+    Object.keys(themes).forEach(name => {
+        const opt = document.createElement('option');
+        opt.value = name;
+        opt.textContent = name;
+        if (name === currentTheme) opt.selected = true;
+        select.append(opt);
     });
-}
 
-document.getElementById("applyBtn").addEventListener("click", () => {
-    const theme = document.getElementById("themeSelector").value;
-    sendMessageToTab({ action: "apply-theme", theme });
-});
+    document.getElementById('apply-btn').addEventListener('click', () => {
+        const theme = select.value;
+        chrome.runtime.sendMessage({ type: 'SET_THEME', themeName: theme }, () => window.close());
+    });
 
-document.getElementById("resetBtn").addEventListener("click", () => {
-    sendMessageToTab({ action: "reset-theme" });
+    document.getElementById('new-theme-btn').addEventListener('click', () => {
+        // Open theme editor (to be implemented)
+    });
 });

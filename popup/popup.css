@@ -1,20 +1,55 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-    padding: 10px;
-    background-color: #121212;
-    color: #f0f0f0;
+/* styles/popup.css */
+
+/* Define your theme variables */
+:root {
+    --background: #1e1e2e;
+    --foreground: #e0def4;
+    --link:       #89b4fa;
+    --button-bg:  #2c2c3c;
+    --button-hover-bg: #89dceb;
+    --button-hover-fg: #1e1e2e;
 }
-button {
-    margin-top: 10px;
-    background-color: #f21bce;
-    color: white;
-    border: none;
-    padding: 6px 10px;
-    cursor: pointer;
+
+/* Popup container */
+body {
+    font-family: sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    padding: 1rem;
+    margin: 0;
+}
+
+/* Heading */
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Select & Buttons */
+select, button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #44475a;
+    background: var(--button-bg);
+    color: var(--foreground);
     border-radius: 4px;
 }
+
 select {
-    width: 100%;
-    padding: 5px;
-    margin-top: 10px;
+    appearance: none;
+}
+
+button:hover {
+    background: var(--button-hover-bg);
+    color: var(--button-hover-fg);
+}
+
+/* Links */
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }

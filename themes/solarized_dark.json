@@ -1,0 +1,11 @@
+{
+  "name": "Solarized Dark",
+  "variables": {
+    "background": "#002b36",
+    "foreground": "#839496",
+    "link": "#268bd2",
+    "visited-link": "#d33682",
+    "hover-link": "#b58900",
+    "border": "#073642"
+  }
+}

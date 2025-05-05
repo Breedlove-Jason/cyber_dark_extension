@@ -1,0 +1,11 @@
+{
+  "name": "Neon Code",
+  "variables": {
+    "background": "#001f1f",
+    "foreground": "#b2fdfd",
+    "link": "#00ffe1",
+    "visited-link": "#00bba3",
+    "hover-link": "#66fff1",
+    "border": "#003737"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Lemonade Burst",
+  "variables": {
+    "background": "#2e2c19",
+    "foreground": "#f3eebd",
+    "link": "#d4c34b",
+    "visited-link": "#b3a53c",
+    "hover-link": "#eddb6e",
+    "border": "#4a472b"
+  }
+}

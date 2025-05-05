@@ -1,0 +1,11 @@
+{
+  "name": "Glamour Emerald",
+  "variables": {
+    "background": "#0a2b26",
+    "foreground": "#d5e8e3",
+    "link": "#a1e4c4",
+    "visited-link": "#7ab89b",
+    "hover-link": "#c3f0de",
+    "border": "#1b4d47"
+  }
+}

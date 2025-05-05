@@ -1,0 +1,11 @@
+{
+  "name": "Morning Dew",
+  "variables": {
+    "background": "#0f1f18",
+    "foreground": "#a8e6cf",
+    "link": "#60c590",
+    "visited-link": "#4a9c70",
+    "hover-link": "#80dbaa",
+    "border": "#1d3c30"
+  }
+}

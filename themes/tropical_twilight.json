@@ -1,0 +1,11 @@
+{
+  "name": "Tropical Twilight",
+  "variables": {
+    "background": "#2b1a3a",
+    "foreground": "#e8dce8",
+    "link": "#e7398a",
+    "visited-link": "#b6296a",
+    "hover-link": "#f15caa",
+    "border": "#3d2b4e"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Aqua Validus",
+  "variables": {
+    "background": "#1b1e24",
+    "foreground": "#c1e6e2",
+    "link": "#3ddbd9",
+    "visited-link": "#2ba3a0",
+    "hover-link": "#66f0ed",
+    "border": "#2a2f37"
+  }
+}

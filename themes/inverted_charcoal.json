@@ -1,0 +1,11 @@
+{
+  "name": "Inverted Charcoal",
+  "variables": {
+    "background": "#f4f4f4",
+    "foreground": "#1c1c1c",
+    "link": "#727272",
+    "visited-link": "#555555",
+    "hover-link": "#999999",
+    "border": "#dddddd"
+  }
+}

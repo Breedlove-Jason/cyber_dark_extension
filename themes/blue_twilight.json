@@ -1,0 +1,11 @@
+{
+  "name": "Blue Twilight",
+  "variables": {
+    "background": "#2a201f",
+    "foreground": "#e3dcd9",
+    "link": "#8ab4f8",
+    "visited-link": "#6a8ccf",
+    "hover-link": "#a3c8f3",
+    "border": "#3b2b2a"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Icy Pumpkin",
+  "variables": {
+    "background": "#1e2b2d",
+    "foreground": "#e0eae9",
+    "link": "#c3e88d",
+    "visited-link": "#9abe6a",
+    "hover-link": "#dbfbac",
+    "border": "#324443"
+  }
+}

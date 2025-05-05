@@ -1,0 +1,11 @@
+{
+  "name": "Skyline Tide",
+  "variables": {
+    "background": "#e8f1f7",
+    "foreground": "#1c2a36",
+    "link": "#2780ce",
+    "visited-link": "#1f5ea3",
+    "hover-link": "#4a98e7",
+    "border": "#c0d3e0"
+  }
+}

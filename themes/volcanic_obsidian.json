@@ -1,0 +1,11 @@
+{
+  "name": "Volcanic Obsidian",
+  "variables": {
+    "background": "#121619",
+    "foreground": "#cfd8dc",
+    "link": "#00e676",
+    "visited-link": "#00b24d",
+    "hover-link": "#33ffa1",
+    "border": "#1e262a"
+  }
+}

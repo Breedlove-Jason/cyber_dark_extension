@@ -1,0 +1,11 @@
+{
+  "name": "Noir Ink",
+  "variables": {
+    "background": "#1c1c1e",
+    "foreground": "#e2e2e2",
+    "link": "#8f8fff",
+    "visited-link": "#6d6ddd",
+    "hover-link": "#b6b6ff",
+    "border": "#2e2e30"
+  }
+}

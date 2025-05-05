@@ -1,0 +1,11 @@
+{
+  "name": "Gilded Marigold",
+  "variables": {
+    "background": "#331b1a",
+    "foreground": "#f0e1d3",
+    "link": "#e6b800",
+    "visited-link": "#b38f00",
+    "hover-link": "#ffd633",
+    "border": "#4a2b29"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Dusty Ember",
+  "variables": {
+    "background": "#1f1e1e",
+    "foreground": "#dcdad9",
+    "link": "#5a9bd3",
+    "visited-link": "#4777a1",
+    "hover-link": "#82b0e8",
+    "border": "#323131"
+  }
+}

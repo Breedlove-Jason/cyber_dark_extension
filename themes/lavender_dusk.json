@@ -1,0 +1,11 @@
+{
+  "name": "Lavender Dusk",
+  "variables": {
+    "background": "#2c1a2c",
+    "foreground": "#e6dfea",
+    "link": "#cba6f7",
+    "visited-link": "#b090da",
+    "hover-link": "#deb0f6",
+    "border": "#3d2b3d"
+  }
+}

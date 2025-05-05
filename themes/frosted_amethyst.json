@@ -1,0 +1,11 @@
+{
+  "name": "Frosted Amethyst",
+  "variables": {
+    "background": "#3b1f3b",
+    "foreground": "#e3d9e9",
+    "link": "#c792ea",
+    "visited-link": "#a16fb5",
+    "hover-link": "#d3aff3",
+    "border": "#553a55"
+  }
+}

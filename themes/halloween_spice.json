@@ -1,0 +1,11 @@
+{
+  "name": "Halloween Spice",
+  "variables": {
+    "background": "#2b1a00",
+    "foreground": "#f9e2b0",
+    "link": "#f78c6c",
+    "visited-link": "#c66f53",
+    "hover-link": "#fab387",
+    "border": "#422800"
+  }
+}

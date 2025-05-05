@@ -1,0 +1,11 @@
+{
+  "name": "Charcoal Grey",
+  "variables": {
+    "background": "#212121",
+    "foreground": "#e0e0e0",
+    "link": "#bbbbbb",
+    "visited-link": "#999999",
+    "hover-link": "#dddddd",
+    "border": "#2e2e2e"
+  }
+}

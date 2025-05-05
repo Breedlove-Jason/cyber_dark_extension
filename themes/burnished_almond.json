@@ -1,0 +1,11 @@
+{
+  "name": "Burnished Almond",
+  "variables": {
+    "background": "#1b1814",
+    "foreground": "#f0e6d2",
+    "link": "#d4b483",
+    "visited-link": "#b29678",
+    "hover-link": "#e8cfa1",
+    "border": "#3a3125"
+  }
+}

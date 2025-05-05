@@ -1,0 +1,11 @@
+{
+  "name": "Celestial Blue",
+  "variables": {
+    "background": "#2b2e3c",
+    "foreground": "#d3dae3",
+    "link": "#4e8cff",
+    "visited-link": "#3d6ea0",
+    "hover-link": "#76a8ff",
+    "border": "#3c3f4d"
+  }
+}

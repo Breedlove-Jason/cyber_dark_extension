@@ -1,0 +1,11 @@
+{
+  "name": "Mystic Potion",
+  "variables": {
+    "background": "#2a142a",
+    "foreground": "#e9dbe9",
+    "link": "#ff79c6",
+    "visited-link": "#d45fa4",
+    "hover-link": "#ff9ad1",
+    "border": "#3b203b"
+  }
+}

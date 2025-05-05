@@ -1,0 +1,11 @@
+{
+  "name": "Echoes Discord",
+  "variables": {
+    "background": "#2e3039",
+    "foreground": "#d7d9e3",
+    "link": "#7289da",
+    "visited-link": "#5b6eae",
+    "hover-link": "#93a8e9",
+    "border": "#3f414c"
+  }
+}

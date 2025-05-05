@@ -1,0 +1,11 @@
+{
+  "name": "Twitter Midnight",
+  "variables": {
+    "background": "#15202b",
+    "foreground": "#e1e8ed",
+    "link": "#1da1f2",
+    "visited-link": "#1989d9",
+    "hover-link": "#4cb0f7",
+    "border": "#223038"
+  }
+}

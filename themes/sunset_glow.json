@@ -1,0 +1,11 @@
+{
+  "name": "Sunset Glow",
+  "variables": {
+    "background": "#291a0f",
+    "foreground": "#f0dfd0",
+    "link": "#f78c49",
+    "visited-link": "#c66c38",
+    "hover-link": "#fab682",
+    "border": "#412d21"
+  }
+}

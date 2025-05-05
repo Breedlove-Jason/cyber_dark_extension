@@ -1,0 +1,11 @@
+{
+  "name": "Nightlight Invert",
+  "variables": {
+    "background": "#21212b",
+    "foreground": "#e5e5e5",
+    "link": "#ff5370",
+    "visited-link": "#cc3f5a",
+    "hover-link": "#ff899f",
+    "border": "#2c2c36"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pink Dream",
+  "variables": {
+    "background": "#f8e6f0",
+    "foreground": "#3e2f3f",
+    "link": "#d36ca8",
+    "visited-link": "#a8537f",
+    "hover-link": "#e89bc3",
+    "border": "#e2c6d8"
+  }
+}

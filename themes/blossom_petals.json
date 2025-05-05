@@ -1,0 +1,11 @@
+{
+  "name": "Blossom Petals",
+  "variables": {
+    "background": "#fbeae8",
+    "foreground": "#3c2e2e",
+    "link": "#ff8fa3",
+    "visited-link": "#cc6f7b",
+    "hover-link": "#ffb0c2",
+    "border": "#efd8d6"
+  }
+}

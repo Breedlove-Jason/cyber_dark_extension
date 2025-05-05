@@ -1,0 +1,11 @@
+{
+  "name": "Apple Verde",
+  "variables": {
+    "background": "#013220",
+    "foreground": "#d4e7d1",
+    "link": "#6caf6c",
+    "visited-link": "#5a8c5a",
+    "hover-link": "#88c788",
+    "border": "#024d23"
+  }
+}

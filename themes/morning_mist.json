@@ -1,0 +1,11 @@
+{
+  "name": "Morning Mist",
+  "variables": {
+    "background": "#f5f7fa",
+    "foreground": "#2e3c4e",
+    "link": "#5a89c9",
+    "visited-link": "#4a75a3",
+    "hover-link": "#82a9f7",
+    "border": "#d1dbe3"
+  }
+}

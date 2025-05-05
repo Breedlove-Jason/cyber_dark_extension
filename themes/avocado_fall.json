@@ -1,0 +1,11 @@
+{
+  "name": "Avocado Fall",
+  "variables": {
+    "background": "#0d1a12",
+    "foreground": "#cde8c0",
+    "link": "#6fbf6f",
+    "visited-link": "#5a9f5a",
+    "hover-link": "#8fea8f",
+    "border": "#1a2f1e"
+  }
+}

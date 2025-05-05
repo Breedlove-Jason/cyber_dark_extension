@@ -1,0 +1,11 @@
+{
+  "name": "Sepia Codex",
+  "variables": {
+    "background": "#f2ecd9",
+    "foreground": "#4a3f32",
+    "link": "#8c6b4b",
+    "visited-link": "#765a41",
+    "hover-link": "#b08b60",
+    "border": "#d8cbb1"
+  }
+}

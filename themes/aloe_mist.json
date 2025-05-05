@@ -1,0 +1,11 @@
+{
+  "name": "Aloe Mist",
+  "variables": {
+    "background": "#d6e9d6",
+    "foreground": "#2a3a2a",
+    "link": "#589659",
+    "visited-link": "#4a7a4a",
+    "hover-link": "#76b276",
+    "border": "#aacfaa"
+  }
+}

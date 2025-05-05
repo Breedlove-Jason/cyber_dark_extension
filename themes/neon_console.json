@@ -1,0 +1,11 @@
+{
+  "name": "Neon Console",
+  "variables": {
+    "background": "#000000",
+    "foreground": "#26ff00",
+    "link": "#aaff00",
+    "visited-link": "#88cc00",
+    "hover-link": "#ccff33",
+    "border": "#003300"
+  }
+}

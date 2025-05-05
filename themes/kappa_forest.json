@@ -1,0 +1,11 @@
+{
+  "name": "Kappa Forest",
+  "variables": {
+    "background": "#0e1f0f",
+    "foreground": "#cbe8ce",
+    "link": "#7fbf74",
+    "visited-link": "#5f9b59",
+    "hover-link": "#a3e8a0",
+    "border": "#1c3c1f"
+  }
+}

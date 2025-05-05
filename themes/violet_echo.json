@@ -1,0 +1,11 @@
+{
+  "name": "Violet Echo",
+  "variables": {
+    "background": "#38304a",
+    "foreground": "#e4e1eb",
+    "link": "#8c82e6",
+    "visited-link": "#6a5fc4",
+    "hover-link": "#ada2f8",
+    "border": "#4a445c"
+  }
+}

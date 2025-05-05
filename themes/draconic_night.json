@@ -1,0 +1,11 @@
+{
+  "name": "Draconic Night",
+  "variables": {
+    "background": "#1a151f",
+    "foreground": "#dbd9e5",
+    "link": "#c792ea",
+    "visited-link": "#a16fb5",
+    "hover-link": "#d3aff3",
+    "border": "#2b202f"
+  }
+}

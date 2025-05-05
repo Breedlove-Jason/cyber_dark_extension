@@ -1,0 +1,11 @@
+{
+  "name": "Emerald Depths",
+  "variables": {
+    "background": "#0b1f23",
+    "foreground": "#d1ebe9",
+    "link": "#4db6ac",
+    "visited-link": "#3a8f82",
+    "hover-link": "#76d6c9",
+    "border": "#194646"
+  }
+}
